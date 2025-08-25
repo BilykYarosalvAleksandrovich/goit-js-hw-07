@@ -179,8 +179,9 @@ body {
   border: solid 1px #808080;
   margin-bottom: 8px;
 }
+
 .button-form {
-  width: 86px;
+  min-width: 86px;
   height: 40px;
   border-radius: 8px;
   padding: 8px 16px;
@@ -201,3 +202,37 @@ body {
   box-shadow: 0 4px 8px rgba(108, 140, 255, 0.4);
 }
 /* #endregion task-4 */
+
+.widget-box {
+  width: 345px;
+  height: 280px;
+  border-radius: 8px;
+  padding: 100px 88px;
+  gap: 10px;
+  border-color: #fff;
+}
+
+.widget {
+  width: 169px;
+  height: 80px;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.text-widget {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-form.btn {
+  display: flex;
+  margin: 0 auto;
+}
