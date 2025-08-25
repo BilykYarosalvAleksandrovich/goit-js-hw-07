@@ -108,6 +108,7 @@ body {
 
 /* #endregion task-2*/
 
+/* #region task-3 */
 .box-input {
   border-radius: 8px;
   padding: 24px;
@@ -147,3 +148,56 @@ body {
   color: #2d2f3a;
   font-weight: 700;
 }
+/* #endregion task-3 */
+
+/* #region task-4 */
+
+.login-form {
+  align-items: center;
+  justify-content: center;
+  width: 408px;
+  height: 256px;
+  border-radius: 8px;
+  padding: 24px;
+  gap: 16px;
+  background-color: #fff;
+}
+.label-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.input-form {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #808080;
+  margin-bottom: 8px;
+}
+.button-form {
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #fff;
+  border: 1px solid;
+  transition: all 0.3s ease;
+}
+
+.button-form:hover,
+.button-form:focus {
+  color: #fff;
+  background-color: #6c8cff;
+  box-shadow: 0 4px 8px rgba(108, 140, 255, 0.4);
+}
+/* #endregion task-4 */
