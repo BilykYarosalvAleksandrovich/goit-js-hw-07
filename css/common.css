@@ -203,13 +203,14 @@ body {
 }
 /* #endregion task-4 */
 
+/* #region task-5 */
 .widget-box {
   width: 345px;
   height: 280px;
   border-radius: 8px;
   padding: 100px 88px;
   gap: 10px;
-  border-color: #fff;
+  background-color: #fff;
 }
 
 .widget {
@@ -236,3 +237,4 @@ body {
   display: flex;
   margin: 0 auto;
 }
+/* #endregion task-5 */
